@@ -3,7 +3,7 @@
 # Prof. Alma González 
 # email: alma.gonzalez@fisica.ugto.mx
 
-\emph{Medio de comunición principal https://www.remind.com/join/eegab3}
+Medio de comunición principal https://www.remind.com/join/eegab3
 
 ## TEMAS
 
