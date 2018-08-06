@@ -3,11 +3,11 @@ Abre (crea) un archivo llamado “programa_hola.c” (Obviamente dentro de la ca
 
 Escribe un texto como el siguiente  : 
 
-/*
-Esto es un comentario. Me sirve para escribir información relevante del programa que estoy haciendo. Por  ejemplo:
-Este programa imprime la típica frase “hola mundo a la pantalla”
-Creado el 06/08/2018 por …
-*/
+    /*
+     Esto es un comentario. Me sirve para escribir información relevante del programa que estoy haciendo. Por  ejemplo:
+     Este programa imprime la típica frase “hola mundo a la pantalla”
+     Creado el 06/08/2018 por …
+    */
 
 
  Para finalizar guarda el archivo, cierralo y actualiza el repositorio. 
