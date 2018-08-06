@@ -29,9 +29,9 @@
 
 ## Evaluación
 
--- 20 % Participación en clase. Se toma participación diariamente, se considera el avance del ejercicio hecho en clase.
+-- 20 % Participación en clase. Se considera el avance del ejercicio hecho en clase.
 
--- 20% Github organizado y con los ejercicios actualizados a tiempo. Se revisa los viernes de cada semana. 
+-- 20 % Github organizado y con los ejercicios terminados y actualizados en github. Se revisa los viernes de cada semana. 
 
 -- 30% Proyectos parciales.
 
