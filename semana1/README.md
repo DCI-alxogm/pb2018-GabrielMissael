@@ -10,4 +10,4 @@ Escribe un texto como el siguiente  :
     */
 
 
- Para finalizar guarda el archivo, cierralo y actualiza el repositorio. 
+ Para finalizar guarda el archivo, cierralo y actualiza el repositorio. Completaremos el archivo en la siguiente sesión. 
