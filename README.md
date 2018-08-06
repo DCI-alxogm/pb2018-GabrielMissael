@@ -41,5 +41,4 @@ Medio de comunición principal https://www.remind.com/join/eegab3
 
 -- 30% Proyecto final
 
--- 10% Exámenes parciales. 
 
