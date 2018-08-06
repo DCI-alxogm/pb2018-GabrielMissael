@@ -1,5 +1,9 @@
-# Programación Básica 2018
-# DCI-UGTO
+# Programación Básica 2018 DCI-UGTO
+
+# Prof. Alma González 
+# email: alma.gonzalez@fisica.ugto.mx
+
+\emph{Medio de comunición principal https://www.remind.com/join/eegab3}
 
 ## TEMAS
 
