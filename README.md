@@ -7,7 +7,7 @@ Medio de comunición principal https://www.remind.com/join/eegab3
 
 ## TEMAS
 
-1.- Interacción con la computadora y repositorios. 
+1.- Interacción con la computadora y [Github](https://github.com/)
 
 2.- Programación en C. 
 
@@ -41,5 +41,15 @@ Medio de comunición principal https://www.remind.com/join/eegab3
 
 -- 30% Proyecto final
 
--- 10% Exámenes parciales. 
+## Util 
+[Resumen de comandos de Github en español ](https://services.github.com/on-demand/downloads/es_ES/github-git-cheat-sheet.pdf )
+
+[Resumen de comandos de Github](https://services.github.com/on-demand/downloads/github-git-cheat-sheet.pdf). 
+
+
+## Bibliografía 
+
+ 
+ [The C programing Lenguaje]( https://books.google.com.mx/books/about/-El_lenguaje_de_programación_C.html ). Brian W. Kernighan, Dennis M. Ritchie 
+
 
