@@ -10,7 +10,7 @@ int main(){
 	scanf("%i", &edad);
 	printf("\n Tu edad es: %i \n", edad);
 	aux = edad+10;
-	printf("\n Tu edad en diez años será: %i \n", aux);
+	printf("\n Tu edad en diez año,es decir, en el 2028,  será: %i \n", aux);
 
 	return 0;
 }
