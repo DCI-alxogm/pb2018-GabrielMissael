@@ -21,11 +21,11 @@ int main(){
 	aux = (sqrt(x*x+y*y))/z;
 	printf("\n prueba = %lf \n", aux);
 	a = atan(aux);
-	l = atan (grado(y/x));
+	l = atan (y/x);
 	printf("De cartesianas a esfericas obtenemos que \n r= %lf \n a=%lf \n l=%lf \n", r, a, l);	
-	X = r*sin(grado(a))*cos(grado(l));
-	Y = r*sin(grado(a))*sin(grado(l));
-	Z = r*cos(grado(a));
+	X = r*sin(a)*cos(l);
+	Y = r*sin(a)*sin(l);
+	Z = r*cos(a);
 	printf("De coordenadas esfericas a cartesianas obtenemos \n X= %lf \n Y=%lf \n Z=%lf \n", X, Y, Z);
 
 return 0;
