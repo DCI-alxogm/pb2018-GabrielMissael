@@ -75,7 +75,7 @@ El último ejemplo, "7ejemplo_4.c", consiste en lo siguiente: se le solicitará 
 	
 Estas dos son las variables donde se guarda el resultado. Hay una para revisar las vocales mayúsculas y otra para las minúsculas. Lo que está entre paréntesis de, por ejemplo, la primera, es equivalente "c es igual a "a", "e", "i", "o", o a "u". Si es igual a alguna, la variable "vocal" será igual a true (es decir, a uno). Lo mismo con "VOCAL" pero con mayúsculas. Gracias a esto, si es vocal, una de las dos variables será cierta y se podrá saber el resultado.
 
-if(VOCAL || vocal){
+	if(VOCAL || vocal){
 		printf("%c es una vocal \n", c);	
 	}
 	else{
