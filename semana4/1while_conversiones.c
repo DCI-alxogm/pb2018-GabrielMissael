@@ -1,4 +1,4 @@
-//Creado por Gabriel Missael Barco el 22/08/18
+//Creado por Gabriel Missael Barco el 29/08/18
 //Incluimos las librerias necesarias
 #include <stdio.h>
 #include<math.h>
