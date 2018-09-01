@@ -13,9 +13,9 @@ Al iniciar el programa, se le preguntaba al usuario que operación quería reali
 Lo que se hizo esta vez, fue modificar el programa para que el usuario pudiera realizar tantas operaciones como deseara. 
 Esto se logró usando la opción while (), que tiene la siguiente estructura:
 
-  while(condición){
-      Proceso
-    }
+     while(condición){
+         Proceso
+       }
 
 Esto permite realizar un proceso mientras una condición sea verdadera. En este caso, se le preguntaba al usuario si quería realizar otra operación, su respuesta se almacenaba en una cadena de caracteres, si la primera letra era "s", entonces el proceso se repetía de nuevo.
 Antes de entrar al ciclo, se ejecutó una vez la función original del programa, después se hizo la pregunta, y en caso de que el usuario respondiera afirmativamente, se entraba al ciclo while, y se sale de este hasta que el usuario responda que no.
