@@ -1,0 +1,32 @@
+
+ Hola, esta es un resumen de los datos de los alumnos:
+Total de estudiantes: 20 , De los cuales 10 son mujeres y 10 son hombres
+ Estudiantes por semestre:
+ Semestre 1°    2
+ Semestre 2°    1
+ Semestre 3°    3
+ Semestre 4°    3
+ Semestre 5°    2
+ Semestre 6°    3
+ Semestre 7°    3
+ Semestre 8°    2
+Promedio general de calificaciones: 8.61
+Promedio de calificaciones por semestre:
+ Semestre 1°  7.15
+ Semestre 2°  8.60
+ Semestre 3°  9.53
+ Semestre 4°  8.90
+ Semestre 5°  8.45
+ Semestre 6°  9.50
+ Semestre 7°  8.43
+ Semestre 8°  7.65
+ Promedio de edad en general: 20.50
+ Promedio de edad por semestre:
+ Semestre 1°    18.00
+ Semestre 2°    18.00
+ Semestre 3°    19.00
+ Semestre 4°    20.00
+ Semestre 5°    21.00
+ Semestre 6°    20.67
+ Semestre 7°    22.67
+ Semestre 8°    22.50

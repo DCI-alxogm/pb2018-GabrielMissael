@@ -10,7 +10,7 @@ int main(){
 	//indicamos el archivo a leer
 	archivo = fopen("test_1.txt", "r");
 
-	//Hay cuatro lineas en nuestro codigo, por lo que leeremos 4 cadenas de caracteres
+	//Hay cuatro lineas en nuestro codigo, por lo qgitue leeremos 4 cadenas de caracteres
 	for(int i=0 ; i<4 ; i++){
 		//leemos
 		fgets(lecture, 255, (FILE*)archivo);
