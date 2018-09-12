@@ -1,0 +1,5 @@
+
+ Gabriel Missael Barco a 12/09/18 
+Esta es una prueba de fputs...
+ Y esta es una prueba de fprintf y variables: 
+ 0.150000 100.123398
