@@ -1,0 +1,147 @@
+
+Para x = 10.000000
+Exponencial es igual a 22026.465795
+Logaritmo es igual a 1.000000
+Seno es igual a -0.544021
+Coseno es igual a -0.839072
+Raíz cuadrada es igual a 3.162278
+
+Para x = 12.000000
+Exponencial es igual a 162754.791419
+Logaritmo es igual a 1.079181
+Seno es igual a -0.536573
+Coseno es igual a 0.843854
+Raíz cuadrada es igual a 3.464102
+
+Para x = 14.000000
+Exponencial es igual a 1202604.284165
+Logaritmo es igual a 1.146128
+Seno es igual a 0.990607
+Coseno es igual a 0.136737
+Raíz cuadrada es igual a 3.741657
+
+Para x = 16.000000
+Exponencial es igual a 8886110.520508
+Logaritmo es igual a 1.204120
+Seno es igual a -0.287903
+Coseno es igual a -0.957659
+Raíz cuadrada es igual a 4.000000
+
+Para x = 18.000000
+Exponencial es igual a 65659969.137331
+Logaritmo es igual a 1.255273
+Seno es igual a -0.750987
+Coseno es igual a 0.660317
+Raíz cuadrada es igual a 4.242641
+
+Para x = 20.000000
+Exponencial es igual a 485165195.409790
+Logaritmo es igual a 1.301030
+Seno es igual a 0.912945
+Coseno es igual a 0.408082
+Raíz cuadrada es igual a 4.472136
+
+Para x = 22.000000
+Exponencial es igual a 3584912846.131592
+Logaritmo es igual a 1.342423
+Seno es igual a -0.008851
+Coseno es igual a -0.999961
+Raíz cuadrada es igual a 4.690416
+
+Para x = 24.000000
+Exponencial es igual a 26489122129.843472
+Logaritmo es igual a 1.380211
+Seno es igual a -0.905578
+Coseno es igual a 0.424179
+Raíz cuadrada es igual a 4.898979
+
+Para x = 26.000000
+Exponencial es igual a 195729609428.838776
+Logaritmo es igual a 1.414973
+Seno es igual a 0.762558
+Coseno es igual a 0.646919
+Raíz cuadrada es igual a 5.099020
+
+Para x = 28.000000
+Exponencial es igual a 1446257064291.475098
+Logaritmo es igual a 1.447158
+Seno es igual a 0.270906
+Coseno es igual a -0.962606
+Raíz cuadrada es igual a 5.291503
+
+Para x = 30.000000
+Exponencial es igual a 10686474581524.462891
+Logaritmo es igual a 1.477121
+Seno es igual a -0.988032
+Coseno es igual a 0.154251
+Raíz cuadrada es igual a 5.477226
+
+Para x = 32.000000
+Exponencial es igual a 78962960182680.687500
+Logaritmo es igual a 1.505150
+Seno es igual a 0.551427
+Coseno es igual a 0.834223
+Raíz cuadrada es igual a 5.656854
+
+Para x = 34.000000
+Exponencial es igual a 583461742527454.875000
+Logaritmo es igual a 1.531479
+Seno es igual a 0.529083
+Coseno es igual a -0.848570
+Raíz cuadrada es igual a 5.830952
+
+Para x = 36.000000
+Exponencial es igual a 4311231547115195.000000
+Logaritmo es igual a 1.556303
+Seno es igual a -0.991779
+Coseno es igual a -0.127964
+Raíz cuadrada es igual a 6.000000
+
+Para x = 38.000000
+Exponencial es igual a 31855931757113756.000000
+Logaritmo es igual a 1.579784
+Seno es igual a 0.296369
+Coseno es igual a 0.955074
+Raíz cuadrada es igual a 6.164414
+
+Para x = 40.000000
+Exponencial es igual a 235385266837020000.000000
+Logaritmo es igual a 1.602060
+Seno es igual a 0.745113
+Coseno es igual a -0.666938
+Raíz cuadrada es igual a 6.324555
+
+Para x = 42.000000
+Exponencial es igual a 1739274941520500992.000000
+Logaritmo es igual a 1.623249
+Seno es igual a -0.916522
+Coseno es igual a -0.399985
+Raíz cuadrada es igual a 6.480741
+
+Para x = 44.000000
+Exponencial es igual a 12851600114359308288.000000
+Logaritmo es igual a 1.643453
+Seno es igual a 0.017702
+Coseno es igual a 0.999843
+Raíz cuadrada es igual a 6.633250
+
+Para x = 46.000000
+Exponencial es igual a 94961194206024482816.000000
+Logaritmo es igual a 1.662758
+Seno es igual a 0.901788
+Coseno es igual a -0.432178
+Raíz cuadrada es igual a 6.782330
+
+Para x = 48.000000
+Exponencial es igual a 701673591209763143680.000000
+Logaritmo es igual a 1.681241
+Seno es igual a -0.768255
+Coseno es igual a -0.640144
+Raíz cuadrada es igual a 6.928203
+
+Para x = 50.000000
+Exponencial es igual a 5184705528587072045056.000000
+Logaritmo es igual a 1.698970
+Seno es igual a -0.262375
+Coseno es igual a 0.964966
+Raíz cuadrada es igual a 7.071068
