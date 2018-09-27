@@ -34,7 +34,7 @@ Neptuno.txt
 
 Pluton.txt
 -4.11218	-29.56880	-7.98970	0.003169840	-0.000584314	-0.001138225
-1 	992 	0.5		0.000000006284565		
+1 	992 	0.25		0.000000006284565		
 	
 
 ##Los datos anteriormente presentados corresponden a:
