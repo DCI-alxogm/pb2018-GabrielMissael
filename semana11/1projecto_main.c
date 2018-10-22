@@ -1,29 +1,50 @@
+//Creado por Gabriel Missael Barco el 22/10/18
+/*
+Este codigo sirve para calcular el equilibrio termico de una placa en dos dimensiones, considerndo que esta aislada y solo recibe calor de sus 4 bordes (diferente en cada borde)
+*/
+
 #include<stdio.h>
 #include <stdlib.h>
 
+//Toda estas funciones estan definidaes en el otro archivo
 void print(double **aux, int w, int a);
 double **itera(double **aux, int w);
 double **iniciar(double **aux, int w, float a, float b, float c, float d);
 
+//Aqui se tiene la estructura general del programa
 int main(){
-	double **mat;
-	float A, B, C, D, E_a=10000000, e;
-	int matriz, n;
-	FILE *read;
 	
+	//Declaramos la matriz que describe a la placa	
+	double **mat;
+
+	//A, B, C y D son las temperaturas de cada uno de los 4 bordes
+	//"e" es el parametro epsilon, un condicion de paro
+	float A, B, C, D, E_a=10000000, e;
+
+	//la variable matriz sirve para indicar si se leeran valore iniciales de la placa (será "1") o si se inicia todo en 0 (será "0")
+	int matriz, n;
+
+	//Creamos archivo para lectura
+	FILE *read;
 	read = fopen("datos.txt", "r");
 
+	//Obtenemos valores iniciales
 	fscanf(read, "%f %f %f %f %i %i %f", &A, &B, &C, &D, &n, &matriz, &e);
-	//printf("\n %f %f %f %f %f %i %i\n", A, B, C, D, N, n, matriz);	
 	n+=2;
 
+	//Cerramos archivo de lectura
 	fclose(read);
-	
+		
+	//Creamos matriz de tipo double usando apuntadores
 	mat = (double **) malloc (n*sizeof(double*));
 	for(int i=0 ; i<n ; i++){
 		mat[i] = (double *) malloc (n*sizeof(double));
 	}
 	
+	//Inicializamos la matriz	
+	mat=iniciar(mat, n, A, B, C, D);
+
+	//Se leen valores iniciales de la matriz si es necesario
 	if(matriz==1){
 		for(int i=1 ; i<n ; i++){
 			for(int j=1 ; j<n ; j++)
@@ -31,15 +52,26 @@ int main(){
 		}
 	}
 	
-	mat=iniciar(mat, n, A, B, C, D);
-	
 	int count=0;
-	while(E_a>e && count<2){
-		print(mat, n, count);		
+
+	//Se realizará este ciclo maximo 200 veces o hasta que el epsilon maximo obtenido en la iteración sea menor al parametro epsilon "e" definido por el usuario
+	while(E_a>e && count<200){
+		//Imprimimos la iteracion en un archivo, solo crearemos a los mas 25 archivos, maximo, por simplicidad
+		if(count<26){		
+			print(mat, n, count);
+		}
+
+		//Realizamos una nueva iteración		
 		mat=itera(mat, n);
+	
+		//Obtenemos el valor epsilon maximo en la nueva iteración
 		E_a=mat[n-1][n-1];
+
+		//llevamos la cuenta de en que iteración vamos
 		count++;
 	}
+	
+	printf("\n%i\n", count);
 
 	return 0;
 }
