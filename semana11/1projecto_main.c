@@ -1,20 +1,23 @@
 #include<stdio.h>
 #include <stdlib.h>
 
-void print(double **aux, int w);
+void print(double **aux, int w, int a);
+double **itera(double **aux, int w);
+double **iniciar(double **aux, int w, float a, float b, float c, float d);
 
 int main(){
 	double **mat;
-	float A, B, C, D, N, s;
+	float A, B, C, D, E_a=10000000, e;
 	int matriz, n;
 	FILE *read;
 	
 	read = fopen("datos.txt", "r");
 
-	fscanf(read, "%f %f %f %f %f %i %i", &A, &B, &C, &D, &N, &n, &matriz);
+	fscanf(read, "%f %f %f %f %i %i %f", &A, &B, &C, &D, &n, &matriz, &e);
 	//printf("\n %f %f %f %f %f %i %i\n", A, B, C, D, N, n, matriz);	
-	s=N/n;
 	n+=2;
+
+	fclose(read);
 	
 	mat = (double **) malloc (n*sizeof(double*));
 	for(int i=0 ; i<n ; i++){
@@ -28,13 +31,15 @@ int main(){
 		}
 	}
 	
-	for(int i=1 ; i<n ; i++){
-		mat[0][i]=A;
-		mat[n-1][i]=C;
-		mat[i][0]=D;
-		mat[i][n-1]=B;
+	mat=iniciar(mat, n, A, B, C, D);
+	
+	int count=0;
+	while(E_a>e && count<2){
+		print(mat, n, count);		
+		mat=itera(mat, n);
+		E_a=mat[n-1][n-1];
+		count++;
 	}
-	
-	print(mat, n);
-	
+
+	return 0;
 }
