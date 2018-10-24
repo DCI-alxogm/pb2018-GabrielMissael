@@ -43,13 +43,18 @@ void print(double **aux, int w, int a){
 	//Modificamos el nombre generico segun la iteracion
 	name[1]=a+'A';
 	char *este;
-
+	
 	//lo copiamos a una string para poder crear un archivo que se llame asi
 	este=name;
 	FILE *write;
 
 	//creamos el archivo, de tipo w para escribir
-	write = fopen(este, "w");
+	if(a!=300){
+		write = fopen(este, "w");
+	}
+	if(a==300){
+		write = fopen("EQUILIBRIO.txt", "w");
+	}
 
 	//En este ciclo, imrimimos la iteracion completa en el archivo
 	for(int i=0 ; i<w; i++){

@@ -55,12 +55,11 @@ int main(){
 	int count=0;
 
 	//Se realizará este ciclo maximo 200 veces o hasta que el epsilon maximo obtenido en la iteración sea menor al parametro epsilon "e" definido por el usuario
-	while(E_a>e && count<200){
+	while(E_a>e && count<500){
 		//Imprimimos la iteracion en un archivo, solo crearemos a los mas 25 archivos, maximo, por simplicidad
-		if(count<26){		
-			print(mat, n, count);
+		if(count<260 && count%10==0){		
+			print(mat, n, count/10);
 		}
-
 		//Realizamos una nueva iteración		
 		mat=itera(mat, n);
 	
@@ -69,6 +68,9 @@ int main(){
 
 		//llevamos la cuenta de en que iteración vamos
 		count++;
+		if(E_a>e){
+			print(mat, n, 300);	
+		}
 	}
 	
 	printf("\n%i\n", count);
