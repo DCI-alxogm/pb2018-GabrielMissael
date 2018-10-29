@@ -2,6 +2,7 @@ import matplotlib.pyplot as plt
 import matplotlib.image as mpimg
 import numpy as np
 
+##Programa para graficar
 for i in range(len(sys.argv)):
     file=sys.argv[i]
     plt.clf()
