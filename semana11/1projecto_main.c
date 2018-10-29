@@ -31,9 +31,6 @@ int main(){
 	//Obtenemos valores iniciales
 	fscanf(read, "%f %f %f %f %i %i %f", &A, &B, &C, &D, &n, &matriz, &e);
 	n+=2;
-
-	//Cerramos archivo de lectura
-	fclose(read);
 		
 	//Creamos matriz de tipo double usando apuntadores
 	mat = (double **) malloc (n*sizeof(double*));
@@ -52,6 +49,9 @@ int main(){
 		}
 	}
 	
+	//Cerramos archivo de lectura
+	fclose(read);
+
 	int count=0;
 
 	//Se realizará este ciclo maximo 200 veces o hasta que el epsilon maximo obtenido en la iteración sea menor al parametro epsilon "e" definido por el usuario
@@ -73,6 +73,8 @@ int main(){
 		}
 	}
 	
+
+	//Imprimimos cuantas iteraciones fueron necesarias
 	printf("\n%i\n", count);
 
 	return 0;
