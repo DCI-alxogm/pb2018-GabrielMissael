@@ -43,8 +43,8 @@ int main(){
 
 	//Se leen valores iniciales de la matriz si es necesario
 	if(matriz==1){
-		for(int i=1 ; i<n ; i++){
-			for(int j=1 ; j<n ; j++)
+		for(int i=1 ; i<n-1 ; i++){
+			for(int j=1 ; j<n-1 ; j++)
 			fscanf(read, "%lf", &mat[i][j]);
 		}
 	}
