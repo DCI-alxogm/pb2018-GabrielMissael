@@ -1,8 +1,11 @@
 #include "holamake.h"
+#include <stdio.h>
 
 int main(){
-printholamake();
 
+	double x;
+	x = printholamake();
+	cuadrado(x);
 return 0;
 
 }

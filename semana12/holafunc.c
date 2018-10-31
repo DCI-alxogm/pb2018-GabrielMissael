@@ -1,10 +1,16 @@
 #include <stdio.h>
 #include "holamake.h"
+#include <math.h>
 
-void printholamake( ){
 
-printf("Hola makefile....!\n");
+double printholamake( ){
+	double x;
+	printf("\nIntroduce un número:");
+	scanf("%lf", &x);
+return x;
+}
 
-return ;
+void cuadrado(double a){
+	printf("%lf\n", a*a);
 }
 
