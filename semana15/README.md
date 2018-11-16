@@ -7,7 +7,7 @@ El Objetivo de este ejercicio es simplemente hacer una gráfica como la mostrada
 Las actividades que deben ya estar realizadas para el día miercoles 21 son: 
 
 - Iniciar un notebook donde se realizara el ejercicio.
-- Gráficar los datos dados en el archivo IRCF.txt. Se debe obtener una imagen como la mostrada en el archivo fig.tex (puntos y barras de error). Sugerencia: buscar las funciones errorbar y subplots de la libreria matplotlib.
+- Gráficar los datos dados en el archivo IRCF.txt. Se debe obtener una imagen como la mostrada en el archivo fig.tex (puntos y barras de error). Sugerencia: Para leer los datos usa la libreria loadtxt de numpy y para gráficar usa las funciones errorbar y subplots de la libreria matplotlib.
 
 
 - Definir la función: 
