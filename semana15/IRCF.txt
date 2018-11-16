@@ -1,4 +1,14 @@
-# COBE/FIRAS CMB monopole spectrum
+# Archivo descargado de https://lambda.gsfc.nasa.gov/product/cobe/firas_monopole_get.cfm
+#Representa la Intensidad como función de la frecuencia, observada por el experimento COBE/FIRAS. Se ha dejado en el archivo #el texto original, pero solo se requiere usar las columnas 1,2 y 4.
+#
+# Columna 1 = Frecuencia, unidades = cm^-1
+# Column 2 = Espectro, unidades =  MJy/sr
+# Column 4 = Incertidumbre asociada al espectro. Barra de error.  unidades = kJy/sr
+
+
+
+
+#COBE/FIRAS CMB monopole spectrum
 # Reference1 = Table 4 of Fixsen et al. 1996 ApJ 473, 576.
 # Reference2 = Fixsen & Mather 2002 ApJ 581, 817.
 # Column 1 = frequency from Table 4 of Fixsen et al., units = cm^-1
